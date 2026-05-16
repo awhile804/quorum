@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────────
+   The Quorum Standard — global tokens (Edition I · 2026)
+   ───────────────────────────────────────────────────────────────── */
+:root {
+  /* Plum surfaces */
+  --plum-900: #14062e;
+  --plum-800: #1e0b45;
+  --plum-700: #2a1259;
+  --plum-600: #3f1a95;
+
+  /* Purple identity + lavender */
+  --purple: #6f3ee3;
+  --purple-600: #5a2bc9;
+  --purple-400: #8e5bff;
+  --purple-300: #b894ff;
+  --purple-200: #d2baff;
+  --purple-100: #e6d9ff;
+  --purple-50: #efe7ff;
+
+  /* Cream + ink */
+  --cream: #f2ead9;
+  --cream-2: #e8dec8;
+  --paper: #f4f1ec;
+  --ink: #0f0820;
+  --ink-2: #2a2438;
+  --muted: #6e6479;
+  --muted-on-dark: #9b91ac;
+
+  /* Gold */
+  --gold: #e2b658;
+  --gold-2: #c29642;
+
+  /* Hairlines */
+  --rule-light: rgba(242, 234, 217, 0.18);
+  --rule-light-strong: rgba(242, 234, 217, 0.4);
+  --rule-dark: rgba(15, 8, 32, 0.14);
+  --rule-dark-strong: rgba(15, 8, 32, 0.32);
+
+  /* Type stack — IBM Plex (fixed pairing). */
+  --font-display: var(--font-plex-serif), Georgia, serif;
+  --font-body: var(--font-plex-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--plum-900);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.55;
+  font-feature-settings: "ss01", "ss02", "cv11";
+}
+
+::selection {
+  background: var(--purple);
+  color: var(--cream);
+}
+
+:focus-visible {
+  outline: 2px solid var(--purple-300);
+  outline-offset: 3px;
+}
+
+/* ─── Editorial chrome utilities ───────────────────────────────── */
+
+/* Generic mono caps (page numbers, captions, metadata, eyebrows) */
+.mono {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-on-dark);
+}
+.mono-tight {
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+/* Latin chrome — gold, small caps, tracked wide. § 12 of the guide. */
+.lat {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* Section index "§ NN · LABEL" — lavender on dark, brand purple on cream */
+.sect-no {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--purple-300);
+}
+.on-cream .sect-no {
+  color: var(--purple);
+}
+
+/* Display serif helper */
+.serif {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+/* Hairlines */
+.rule-l { border-color: var(--rule-light); }
+.rule-l-strong { border-color: var(--rule-light-strong); }
+.rule-d { border-color: var(--rule-dark); }
+.rule-d-strong { border-color: var(--rule-dark-strong); }
+
+/* Reveal-on-scroll (preserved from previous build) */
+.reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.7s cubic-bezier(0.2, 0, 0, 1),
+    transform 0.7s cubic-bezier(0.2, 0, 0, 1);
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Link */
+a.link, .link-u {
+  color: var(--purple-300);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  transition: color 0.2s cubic-bezier(0.2, 0, 0, 1);
+}
+a.link:hover, .link-u:hover {
+  color: var(--purple-200);
+}
+.on-cream a.link, .on-cream .link-u {
+  color: var(--purple);
+}
+.on-cream a.link:hover, .on-cream .link-u:hover {
+  color: var(--purple-600);
+}
+
+/* Hero radial — soft purple wash on plum */
+.hero-aura::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 80% 25%, rgba(184, 148, 255, 0.14), transparent 55%),
+    radial-gradient(ellipse at 12% 90%, rgba(111, 62, 227, 0.18), transparent 60%);
+}
+
+/* Italic for Latin terms / quotations only — never for emphasis (§ 01.II) */
+.italic-latin { font-style: italic; color: var(--cream); }
+
+/* Numerals helper — italic lavender unit */
+.unit-italic {
+  font-style: italic;
+  color: var(--purple-300);
+  font-size: 0.5em;
+}
