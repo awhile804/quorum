@@ -27,15 +27,15 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://quorumpmi.com"),
   title: {
-    default: "Quorum — Stop reconciling in slides. Start integrating in software.",
+    default: "Quorum — AI agents that run post-merger integration.",
     template: "%s · Quorum",
   },
   description:
-    "AI agents that run post-merger integration. When the deal closes, the agents stay on — the system of record for every cross-functional decision that follows.",
+    "One agent per function. They take in your systems, contracts, and headcount, convene on demand, propose dispositioning, and route every decision to your leads for sign-off. After close, they stay on as the system of record.",
   openGraph: {
-    title: "Quorum — Stop reconciling in slides. Start integrating in software.",
+    title: "Quorum — AI agents that run post-merger integration.",
     description:
-      "AI agents that run post-merger integration. When the deal closes, the agents stay on — the system of record for every cross-functional decision that follows.",
+      "One agent per function. They take in your systems, contracts, and headcount, convene on demand, propose dispositioning, and route every decision to your leads for sign-off. After close, they stay on as the system of record.",
     type: "website",
     siteName: "Quorum",
   },

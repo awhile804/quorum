@@ -13,17 +13,20 @@ export function Hero() {
       <Container>
         <div className="relative pt-20 pb-16 md:pt-28 md:pb-20">
           <h1 className="font-serif font-light leading-[0.98] tracking-[-0.02em] text-cream text-[clamp(2.75rem,8.2vw,7.5rem)]">
-            Stop reconciling in slides.
+            AI agents that run
             <br />
             <span className="text-purple-300">
-              Start integrating in software.
+              post-merger integration.
             </span>
           </h1>
 
           <p className="mt-8 max-w-prose2 text-[19px] leading-[1.55] text-muted-dark">
-            AI agents that run post-merger integration. When the deal
-            closes, the agents stay on &mdash; the system of record for
-            every cross-functional decision that follows.
+            One agent per function — Finance, IT, HR, R&amp;D,
+            Operations, Legal, Sales. Each takes in your systems,
+            contracts, and headcount from both sides, convenes with the
+            others on demand, proposes dispositioning, and routes every
+            recommendation to your leads for sign-off. After close, the
+            agents stay on as the system of record.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">

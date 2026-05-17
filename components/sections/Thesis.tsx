@@ -11,7 +11,7 @@ const PHASES: Phase[] = [
   {
     kicker: "During",
     title: "We run the integration.",
-    body: "Functional agents take in your systems, contracts, headcount, and process maps from both sides. They convene on demand, surface the conflicts, propose dispositioning, and route every recommendation to your functional leads for sign-off. Months of cross-functional alignment compress into days, with the analysis attached and a decision log that writes itself.",
+    body: "Functional agents take in your systems, contracts, headcount, and process maps from both sides. They convene on demand, surface the conflicts, propose dispositioning, and route every recommendation to your functional leads for sign-off — each one with the analysis attached, captured in a decision log that writes itself.",
   },
   {
     kicker: "After close",

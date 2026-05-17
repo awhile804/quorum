@@ -17,7 +17,7 @@ const PAIRS: Pair[] = [
     others:
       "The Big Four sends a team. The team needs three months to learn your business — the same two companies their last team learned six months ago for a different client. You are paying $1,200 an hour for them to read 10-Ks.",
     ours:
-      "Our agents finish reading both companies before kickoff. 10-Ks, prior earnings, every public filing, both companies' system inventories, active vendor MSAs, org charts, comp ladders. Day 1 produces decisions, not onboarding.",
+      "Our agents read both companies in full — 10-Ks, prior earnings, every public filing, both companies' system inventories, active vendor MSAs, org charts, comp ladders. The integration starts with the underlying picture already drawn, not a junior consultant pulling 10-Ks at $1,200 an hour.",
   },
   {
     others:

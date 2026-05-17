@@ -17,15 +17,15 @@ const ROWS = [
       </>
     ),
     body:
-      "Finance, IT, HR, Legal, Operations, R&D, GTM — each function gets a dedicated agent. The agent connects to its own systems on day one (ERPs, CLM, HRIS, ITSM, ticketing, code repos) and runs analytical tooling built for the work. By kickoff it has already mapped the contracts, the comp bands, the app inventory, and the operating cadence of both companies.",
+      "Finance, IT, HR, Legal, Operations, R&D, GTM — each function gets a dedicated agent. Each agent connects to its own systems (ERPs, CLM, HRIS, ITSM, ticketing, code repos), runs analytical tooling built for the work, and keeps a current picture of both companies: contracts, comp bands, app inventory, operating cadence.",
     visual: <FunctionsMock />,
     flip: false,
   },
   {
     headline: (
       <>
-        What a $5M consulting team would tell you. On every decision.{" "}
-        <span className="text-purple-300">In days.</span>
+        What a $5M consulting team would tell you.{" "}
+        <span className="text-purple-300">On every decision.</span>
       </>
     ),
     body:
@@ -36,8 +36,10 @@ const ROWS = [
   {
     headline: (
       <>
-        Audit-grade. Without the three months of forensic accounting{" "}
-        <span className="text-purple-300">at the end</span>.
+        Audit-grade.{" "}
+        <span className="text-purple-300">
+          By construction, not reconstruction.
+        </span>
       </>
     ),
     body:

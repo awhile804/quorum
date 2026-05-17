@@ -6,7 +6,7 @@ const STEPS = [
     number: "01",
     title: "We onboard the deal",
     body:
-      "We pull everything public — 10-Ks, prior earnings, every filing, every press release — and connect to both companies' systems: ERPs, CLM, HRIS, ITSM, ticketing, code repos, the warehouse. Every agent builds a working model of its function across both companies: system inventory, active contracts, comp ladder, operating cadence, technical debt. Within a week the integration has a baseline that takes a Big Four team three months to assemble. Day 1 produces decisions, not onboarding.",
+      "We pull everything public — 10-Ks, prior earnings, every filing, every press release — and connect to both companies' systems: ERPs, CLM, HRIS, ITSM, ticketing, code repos, the warehouse. Every agent builds a working model of its function across both companies: system inventory, active contracts, comp ladder, operating cadence, technical debt. The integration starts with the underlying picture already drawn.",
   },
   {
     number: "02",
@@ -18,7 +18,7 @@ const STEPS = [
     number: "03",
     title: "We run quorums",
     body:
-      "Each decision routes to the relevant agents. They draft, work through the conflicts, model trade-offs against the synergy plan, and produce a brief — the recommendation, the analytical work, who concurred, who didn't. Leadership signs or pushes back. Approvals roll into the next set of decisions automatically. By Day 90 the decision log is complete and audit-ready.",
+      "Each decision routes to the relevant agents. They draft, work through the conflicts, model trade-offs against the synergy plan, and produce a brief — the recommendation, the analytical work, who concurred, who didn't. Leadership signs or pushes back. Approvals roll into the next set of decisions automatically. The decision log is complete and audit-ready when the integration closes.",
   },
 ];
 
