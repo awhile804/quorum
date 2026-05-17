@@ -25,17 +25,17 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://quorum.ai"),
+  metadataBase: new URL("https://quorumpmi.com"),
   title: {
     default: "Quorum — Stop reconciling in slides. Start integrating in software.",
     template: "%s · Quorum",
   },
   description:
-    "AI agents that run the cross-functional decisions in your post-merger integration and brief you with the analysis attached. Approvals log automatically. Audit-ready on close.",
+    "AI agents that run post-merger integration. When the deal closes, the agents stay on — the system of record for every cross-functional decision that follows.",
   openGraph: {
     title: "Quorum — Stop reconciling in slides. Start integrating in software.",
     description:
-      "AI agents that run the cross-functional decisions in your post-merger integration and brief you with the analysis attached.",
+      "AI agents that run post-merger integration. When the deal closes, the agents stay on — the system of record for every cross-functional decision that follows.",
     type: "website",
     siteName: "Quorum",
   },

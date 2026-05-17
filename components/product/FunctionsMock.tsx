@@ -20,9 +20,9 @@ const AGENTS = [
     ready: 18,
   },
   {
-    fn: "Legal",
-    holds: "MSAs · NDAs · policy · regulatory",
-    ready: 12,
+    fn: "R&D",
+    holds: "IP portfolio · roadmaps · patents · research",
+    ready: 17,
   },
   {
     fn: "Operations",
@@ -30,7 +30,12 @@ const AGENTS = [
     ready: 21,
   },
   {
-    fn: "GTM",
+    fn: "Legal & Compliance",
+    holds: "MSAs · NDAs · policy · regulatory",
+    ready: 12,
+  },
+  {
+    fn: "Sales & GTM",
     holds: "Pipeline · pricing · territories · CRM",
     ready: 15,
   },

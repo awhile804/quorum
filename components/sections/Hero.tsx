@@ -21,10 +21,9 @@ export function Hero() {
           </h1>
 
           <p className="mt-8 max-w-prose2 text-[19px] leading-[1.55] text-muted-dark">
-            AI agents that run the cross-functional decisions in your
-            post-merger integration and brief you with the analysis
-            attached. Approvals log automatically. The integration is
-            audit-ready on the day you close.
+            AI agents that run post-merger integration. When the deal
+            closes, the agents stay on &mdash; the system of record for
+            every cross-functional decision that follows.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">
