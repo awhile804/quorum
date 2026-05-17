@@ -28,7 +28,7 @@ export function FinalCTA() {
             <div className="mt-14 max-w-prose2 text-[16px] leading-[1.65] text-muted-dark">
               <p>
                 Built by operators and engineers from EY-Parthenon, UC
-                Berkeley, and Amazon. Pre-seed, San Francisco, 2026.
+                Berkeley, and Amazon. San Francisco, 2026.
               </p>
             </div>
           </div>

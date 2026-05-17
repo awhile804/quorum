@@ -9,14 +9,14 @@ type Phase = {
 
 const PHASES: Phase[] = [
   {
-    kicker: "Year One · The Wedge",
-    title: "Post-Merger Integration",
-    body: "Sold to mid-market acquirers and PE platforms running serial M&A. We replace the post-close consulting workstream — the same decision log, faster, with the analysis attached. The committee runs months of cross-functional alignment in days.",
+    kicker: "During",
+    title: "We run the integration.",
+    body: "Functional agents take in your systems, contracts, headcount, and process maps from both sides. They convene on demand, surface the conflicts, propose dispositioning, and route every recommendation to your functional leads for sign-off. Months of cross-functional alignment compress into days, with the analysis attached and a decision log that writes itself.",
   },
   {
-    kicker: "Year Three+ · The Platform",
-    title: "The Corporate Brain",
-    body: "Post-close, the agents do not leave. The same committee that ran the integration continues weighing in on what comes next: reorganisations, divestitures, the strategic calls the combined company has to make. The system of record for every cross-functional decision that follows.",
+    kicker: "After close",
+    title: "We stay on.",
+    body: "The committee does not pack up. The agents keep holding the context they built — every decision you made, why you made it, what depended on what. They convene again the next time the business has to think clearly: a reorganisation, a divestiture, the next acquisition. The same room you used to consolidate, used to run.",
   },
 ];
 
@@ -26,20 +26,18 @@ export function Thesis() {
       <Container>
         <Reveal>
           <h2 className="max-w-5xl font-serif font-light leading-[1.0] tracking-[-0.018em] text-cream text-[clamp(2.5rem,5.5vw,4.5rem)]">
-            Integration is the wedge.
+            When the integration ends,
             <br />
-            <span className="text-purple-300">
-              The brain is what we&apos;re building.
-            </span>
+            <span className="text-purple-300">we don&apos;t.</span>
           </h2>
         </Reveal>
 
         <Reveal>
           <p className="mt-8 max-w-prose2 text-[18px] leading-[1.6] text-muted-dark">
-            Integration is the rare moment a business is forced to
-            collaborate cross-functionally and assert its priorities
-            clearly. We use that moment to install the layer that runs
-            every cross-functional decision afterwards.
+            Most integration teams ship a binder and disband. The agents
+            we deploy keep working. The committee that ran your
+            consolidation becomes the layer your business uses to make
+            cross-functional decisions afterwards.
           </p>
         </Reveal>
 
